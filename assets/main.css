@@ -74,6 +74,10 @@ body {
   margin-right: 10%;
 }
 
+.social__icons__container a {
+  text-decoration: none;
+}
+
 .social__icons {
   height: 1.7em;
   padding-right: 0.5rem;
