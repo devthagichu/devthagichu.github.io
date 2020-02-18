@@ -88,31 +88,27 @@ body {
 
 }
 
-.content {
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 18vh;
-    height: 100vh;
-    position: relative;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+v height: 100vh;
+position: relative;
+display: grid;
+grid-template-columns: 2fr 1fr;
 
-    h1 {
-        padding-bottom: 2vh;
-        font-size: 3rem;
-        font-weight: bold;
-        color: $color-orange;
-    }
+h1 {
+    padding-bottom: 2vh;
+    font-size: 3rem;
+    font-weight: bold;
+    color: $color-orange;
+}
 
-    h3 {
-        padding-bottom: 5vh;
-        font-size: x-large;
-    }
+h3 {
+    padding-bottom: 5vh;
+    font-size: x-large;
+}
 
-    p {
-        font-size: large;
-        padding-bottom: 5vh;
-    }
+p {
+    font-size: large;
+    padding-bottom: 5vh;
+}
 }
 
 .me__container {
@@ -143,4 +139,39 @@ body {
     padding: 1.5rem;
     background-color: $color-orange;
     color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    .hero__text {
+
+
+
+
+        h1 {
+            font-size: 1.8rem;
+
+
+        }
+    }
+
+    .content {
+        grid-template-columns: 1fr;
+    }
+
+    .hero__section {
+
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .social__icons__container {
+        display: none;
+    }
+
+    .content {
+        padding-top: 10vh;
+    }
+
 }

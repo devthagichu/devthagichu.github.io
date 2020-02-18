@@ -139,4 +139,21 @@ body {
   background-color: #d2532d;
   color: #fff;
 }
+
+@media (max-width: 768px) {
+  .hero__text h1 {
+    font-size: 1.8rem;
+  }
+  .content {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .hero__section {
+    background-size: cover;
+    background-position: center;
+  }
+  .social__icons__container {
+    display: none;
+  }
+}
 /*# sourceMappingURL=main.css.map */
