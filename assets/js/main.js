@@ -2,7 +2,7 @@ const hero__text = document.getElementById('hero__text');
 const menu__logo = document.getElementById('menu__logo');
 
 
-
+document.getElementById("year").innerHTML = new Date().getFullYear();
 
 window.addEventListener('scroll', function (event) {
     var scroll = this.scrollY;
@@ -34,8 +34,6 @@ window.addEventListener('scroll', function (event) {
 
 
 });
-
-
 
 
 
